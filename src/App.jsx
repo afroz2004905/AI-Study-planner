@@ -20,7 +20,7 @@ export default function App() {
   return (
     <StudyProvider>
       <GoalsProvider>
-        <BrowserRouter>
+      <BrowserRouter basename="/AI-Study-planner">
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Dashboard />} />
